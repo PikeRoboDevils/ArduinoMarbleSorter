@@ -1,20 +1,10 @@
 /*
-  Magical Marble Sorting Machine Revisited
-  Color sensor from Adafruit type TCS34725 connected to SDA, SCL, GND and VCC on the Arduino Leonardo bit
-  Power via IR sensor on A0
-  Number+ on D9
-  Kickservo, MP3 player and Synth speaker and reset number+ on D1
-  Storage select servo,dimmer and hand pointer servo on D5
-  D5 set to analog, D9 set to PWM
-  This is the original color sensor program that I used from Adi Dax:
-  http://www.makerblog.at/2015/01/farben-erkennen-mit-dem-rgb-sensor-tcs34725-und-dem-arduino/
-  (It has a very good trick to get a stable output, dividing the color numbers by their average value)
-
-  The Adafruit library for the sensor and a tutorial can be downloaded here:
-  https://www.adafruit.com/product/1334
-
-
-  Alex Pikkert November 2016
+ * Team 1018 Marble Sorter
+ * Version 1.0
+ * With help from Alex Pikkert
+ * 
+ * The Adafruit library for the sensor and a tutorial can be downloaded here:
+ * https://www.adafruit.com/product/1334
 */
 #include <Servo.h>
 #include <Wire.h>
